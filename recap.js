@@ -15,9 +15,12 @@ const total = add(12);
 // 3. template string
 const myNote = `I am ${name}. I buy a new phone that is ${phone}.`;
 // console.log(myNote);
+// 4. arrow function
+const square = (x) => x * x;
+// console.log(square(5));
 // 5. spread or three dots (...)
 const array = [4, 6, 7, 8, 14, 1, 9, 10, 11, 12];
 
 const max = Math.max(...array);
 const min = Math.min(...array);
-console.log(max, min);
+// console.log(max, min);
